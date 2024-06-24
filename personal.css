@@ -29,7 +29,55 @@
 }
 
 /* Typogarphy */
-
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--pui-color-black);
+    line-height: 52.13px;
+}
+h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--pui-color-black);
+    line-height: 46.34px;
+}
+h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--pui-color-black);
+    line-height: 40.54px;
+}
+h4 {
+    margin: 0;
+    line-height: 34.75px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--pui-color-black);
+}
+h5 {
+    margin: 0;
+    line-height: 28.96px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--pui-color-black);
+}
+h6 {
+    margin: 0;
+    line-height: 23.17px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--pui-color-black);
+}
+p {
+    margin: 0;
+    line-height: 20.27px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--pui-color-black);
+}
 /* Button */
 .pui-btn.filled {
     padding: var(--pui-btn-padding);
