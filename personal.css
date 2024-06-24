@@ -44,6 +44,7 @@ body {
     color: var(--pui-color-black);
     line-height: 52.13px;
 }
+
 .pui-content h2 {
     margin: 0;
     font-size: 32px;
@@ -51,6 +52,7 @@ body {
     color: var(--pui-color-black);
     line-height: 46.34px;
 }
+
 .pui-content h3 {
     margin: 0;
     font-size: 28px;
@@ -58,6 +60,7 @@ body {
     color: var(--pui-color-black);
     line-height: 40.54px;
 }
+
 .pui-content h4 {
     margin: 0;
     line-height: 34.75px;
@@ -65,6 +68,7 @@ body {
     font-weight: bold;
     color: var(--pui-color-black);
 }
+
 .pui-content h5 {
     margin: 0;
     line-height: 28.96px;
@@ -72,6 +76,7 @@ body {
     font-weight: bold;
     color: var(--pui-color-black);
 }
+
 .pui-content h6 {
     margin: 0;
     line-height: 23.17px;
@@ -79,6 +84,7 @@ body {
     font-weight: bold;
     color: var(--pui-color-black);
 }
+
 .pui-content p {
     margin: 0;
     line-height: 20.27px;
@@ -86,16 +92,60 @@ body {
     font-weight: normal;
     color: var(--pui-color-black);
 }
+
 /* Button */
-.pui-btn.filled {
+.pui-btn {
     padding: var(--pui-btn-padding);
-    border-radius: var(--pui-btn-border-radius);;
-    background: var(--pui-color-primary);
+    border-radius: var(--pui-btn-border-radius);
     display: flex;
     justify-content: center;
     align-items: center;
     border: 0;
     font-size: 15px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 1);
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+.pui-btn.filled {
+    background: var(--pui-color-primary);
+    color: var(--pui-color-white);
+}
+
+.pui-btn.filled:hover {
+    background: var(--pui-color-primay-light);
+}
+
+.pui-btn.filled:active {
+    transition: all 0.2s;
+    background: var(--pui-color-primay-strong);
+}
+
+.pui-btn.tonal {
+    background: var(--pui-color-secondary);
+    color: var(--pui-color-black);
+}
+
+.pui-btn.tonal:hover {
+    background: var(--pui-color-secondary-light);
+}
+
+.pui-btn.tonal:active {
+    transition: all 0.2s;
+    background: var(--pui-color-secondary-soft);
+}
+
+.pui-btn.outlined {
+    background: none;
+    border: solid var(--pui-color-primary) 1.5px;
+    color: var(--pui-color-primary);
+}
+
+.pui-btn.outlined:hover {
+    border: solid var(--pui-color-primay-light) 1.5px;
+}
+
+.pui-btn.outlined:active {
+    transition: all 0.2s;
+    border: solid var(--pui-color-primay-strong) 1.5px;
 }
