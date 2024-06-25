@@ -1,3 +1,38 @@
-.pui-divider {
-    border: solid var(--pui-color-grey) 1.5px;
+.pui-divider.soild {
+    border-top: solid var(--pui-color-grey-light) 1px;
+    margin: 10px 0;
+}
+
+.pui-divider.dashed {
+    border: 0;
+    border-top: 2px dashed var(--pui-color-grey-light);
+    margin: 10px 0;
+}
+
+.pui-divider.dashed-light {
+    border: 0;
+    border-top: 2.5px dashed var(--pui-color-grey-light);
+    margin: 10px 0;
+}
+
+.pui-divider .text {
+    position: relative;
+    left: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    background-color: white;
+    color: var(--pui-color-grey-strong);
+    padding-left: 5px;
+    padding-right: 5px;
+    width: min-content;
+    font-family: 'SourceHanSansSC-Normal';
+}
+.pui-divider.soild .text{
+    top: -0.5px;
+}
+.pui-divider.dashed .text{
+    top: -1px;
+}
+.pui-divider.dashed-light .text{
+    top: -1.25px;
 }
