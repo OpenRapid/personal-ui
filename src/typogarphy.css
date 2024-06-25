@@ -15,7 +15,7 @@ body {
 .pui-content h1 {
     margin: 0;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: medium;
     color: var(--pui-color-black);
     line-height: 52.13px;
 }
@@ -23,7 +23,7 @@ body {
 .pui-content h2 {
     margin: 0;
     font-size: 32px;
-    font-weight: bold;
+    font-weight: medium;
     color: var(--pui-color-black);
     line-height: 46.34px;
 }
@@ -31,7 +31,7 @@ body {
 .pui-content h3 {
     margin: 0;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: medium;
     color: var(--pui-color-black);
     line-height: 40.54px;
 }
@@ -40,7 +40,7 @@ body {
     margin: 0;
     line-height: 34.75px;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: medium;
     color: var(--pui-color-black);
 }
 
@@ -48,7 +48,7 @@ body {
     margin: 0;
     line-height: 28.96px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: medium;
     color: var(--pui-color-black);
 }
 
@@ -56,7 +56,7 @@ body {
     margin: 0;
     line-height: 23.17px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: medium;
     color: var(--pui-color-black);
 }
 
@@ -66,4 +66,38 @@ body {
     font-size: 14px;
     font-weight: normal;
     color: var(--pui-color-black);
+}
+
+.pui-text-color-primary {
+    color: var(--pui-color-primary);
+}
+.pui-text-color-secondary {
+    color: var(--pui-color-secondary);
+}
+.pui-text-color-success {
+    color: var(--pui-color-success);
+}
+.pui-text-color-warning {
+    color: var(--pui-color-warning);
+}
+.pui-text-color-error {
+    color: var(--pui-color-error);
+}
+.pui-text-color-grey {
+    color: var(--pui-color-grey);
+}
+.pui-text-color-black {
+    color: var(--pui-color-black);
+}
+.pui-text-color-white {
+    color: var(--pui-color-white);
+}
+.pui-text-weight-bold {
+    font-weight: medium;
+}
+.pui-text-weight-normal {
+    font-weight: normal;
+}
+.pui-text-weight-medium {
+    font-weight: medium;
 }
