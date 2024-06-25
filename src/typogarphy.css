@@ -10,7 +10,6 @@ body {
     font-weight: normal;
     color: var(--pui-color-black);
     font-family: 'SourceHanSansSC-Normal';
-    float: left;
 }
 
 .pui-content a {

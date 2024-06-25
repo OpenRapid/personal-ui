@@ -1,7 +1,7 @@
 .pui-btn {
     padding: var(--pui-btn-padding);
     border-radius: var(--pui-btn-border-radius);
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     border: 0;
@@ -9,7 +9,6 @@
     font-weight: 500;
     transition: all 0.5s;
     margin: 5px;
-    float: left;
     cursor: pointer;
 }
 
@@ -147,9 +146,8 @@
 
 .pui-groups {
     border-radius: var(--pui-btn-border-radius);
-    display: inline;
+    display: inline-flex;
     overflow: hidden;
-    float: left;
     margin: 5px;
 }
 
