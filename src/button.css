@@ -136,11 +136,11 @@
     color: var(--pui-color-white);
 }
 
-.pui-btn.tonal:hover {
+.pui-btn.error:hover {
     background: var(--pui-color-error-light);
 }
 
-.pui-btn.tonal:active {
+.pui-btn.error:active {
     transition: all 0.2s;
     background: var(--pui-color-error-strong);
 }
