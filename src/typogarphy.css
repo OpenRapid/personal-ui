@@ -2,6 +2,11 @@
 
 .pui-content {
     padding: 10px 30px;
+    margin: 0;
+    line-height: 20.27px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--pui-color-black);
 }
 
 .pui-content h1 {
