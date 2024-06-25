@@ -1,4 +1,6 @@
-/* Typogarphy */
+body {
+    margin: 0;
+}
 
 .pui-content {
     padding: 10px 30px;
@@ -9,6 +11,7 @@
     color: var(--pui-color-black);
 }
 
+/* Typogarphy */
 .pui-content h1 {
     margin: 0;
     font-size: 36px;

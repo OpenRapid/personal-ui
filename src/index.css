@@ -5,7 +5,7 @@
     --pui-color-primay-light: #4D83E0;
     --pui-color-primay-soft: #C6D7F7;
     --pui-color-secondary: #BAD0F7;
-    --pui-color-secondary-light: #FAFBFC;
+    --pui-color-secondary-light: #EBF1F7;
     --pui-color-secondary-soft: #E4EDF7;
     --pui-color-success: #2FB344;
     --pui-color-success-light: #73C781;
@@ -26,8 +26,4 @@
     /* Button */
     --pui-btn-padding: 9px 30px;
     --pui-btn-border-radius: 6px;
-}
-
-body {
-    margin: 0;
 }
