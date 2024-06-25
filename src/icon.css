@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'icon-outlined';
+    src: url('../fonts/MaterialIconsOutlined-Regular.otf');
+}
+@font-face {
+    font-family: 'icon-rounded';
+    src: url('../fonts/MaterialIconsRound-Regular.otf');
+}
+@font-face {
+    font-family: 'icon-sharp';
+    src: url('../fonts/MaterialIconsSharp-Regular.otf');
+}
+@font-face {
+    font-family: 'icon-twotone';
+    src: url('../fonts/MaterialIconsTwoTone-Regular.otf');
+}
+@font-face {
+    font-family: 'icon-filled';
+    src: url('../fonts/MaterialIcons-Regular.ttf');
+}
+.pui-icon.outlined {
+    font-family: 'icon-outlined';
+}
+
+.pui-icon.rounded {
+    font-family: 'icon-rounded';
+}
+.pui-icon.sharp {
+    font-family: 'icon-sharp';
+}
+.pui-icon.twotone {
+    font-family: 'icon-twotone';
+}
+.pui-icon.filled {
+    font-family: 'icon-filled';
+}
