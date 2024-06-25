@@ -1,0 +1,23 @@
+.pui-breadcrumb .path::after {
+    content: " / ";
+}
+
+.pui-breadcrumb .path:last-child::after {
+    content: none;
+}
+
+.pui-breadcrumb.point .path::after {
+    content: " ·";
+}
+
+.pui-breadcrumb.point .path:last-child::after {
+    content: none;
+}
+
+.pui-breadcrumb.forward .path::after {
+    content: " >";
+}
+
+.pui-breadcrumb.forward .path:last-child::after {
+    content: none;
+}
