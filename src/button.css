@@ -1,0 +1,56 @@
+/* Button */
+.pui-btn {
+    padding: var(--pui-btn-padding);
+    border-radius: var(--pui-btn-border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+.pui-btn.filled {
+    background: var(--pui-color-primary);
+    color: var(--pui-color-white);
+}
+
+.pui-btn.filled:hover {
+    background: var(--pui-color-primay-light);
+}
+
+.pui-btn.filled:active {
+    transition: all 0.2s;
+    background: var(--pui-color-primay-strong);
+}
+
+.pui-btn.tonal {
+    background: var(--pui-color-secondary);
+    color: var(--pui-color-black);
+}
+
+.pui-btn.tonal:hover {
+    background: var(--pui-color-secondary-light);
+}
+
+.pui-btn.tonal:active {
+    transition: all 0.2s;
+    background: var(--pui-color-secondary-soft);
+}
+
+.pui-btn.outlined {
+    background: none;
+    border: solid var(--pui-color-primary) 1.5px;
+    color: var(--pui-color-primary);
+}
+
+.pui-btn.outlined:hover {
+    border: solid var(--pui-color-primay-light) 1.5px;
+}
+
+.pui-btn.outlined:active {
+    transition: all 0.2s;
+    border: solid var(--pui-color-primay-strong) 1.5px;
+}
