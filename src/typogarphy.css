@@ -66,7 +66,7 @@ body {
     line-height: 20.27px;
     font-size: 14px;
     font-weight: normal;
-    color: var(--pui-color-black);
+
 }
 
 .pui-text-color-primary {
@@ -84,8 +84,8 @@ body {
 .pui-text-color-error {
     color: var(--pui-color-error);
 }
-.pui-text-color-grey {
-    color: var(--pui-color-grey);
+.pui-text-color-description {
+    color: var(--pui-color-grey-strong);
 }
 .pui-text-color-black {
     color: var(--pui-color-black);
@@ -93,12 +93,15 @@ body {
 .pui-text-color-white {
     color: var(--pui-color-white);
 }
+.pui-text-color-disabled{
+    color: var(--pui-color-grey);
+}
 .pui-text-weight-bold {
-    font-weight: medium;
+    font-family: 'SourceHanSansSC-Bold'!important;
 }
 .pui-text-weight-normal {
-    font-weight: normal;
+    font-family: 'SourceHanSansSC-Normal'!important;
 }
 .pui-text-weight-medium {
-    font-weight: medium;
+    font-family: 'SourceHanSansSC-Medium'!important;
 }
