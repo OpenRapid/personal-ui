@@ -18,12 +18,12 @@
 }
 
 .pui-btn.filled:hover {
-    background: var(--pui-color-primay-light);
+    background: var(--pui-color-primary-light);
 }
 
 .pui-btn.filled:active {
     transition: all 0.2s;
-    background: var(--pui-color-primay-strong);
+    background: var(--pui-color-primary-strong);
 }
 
 .pui-btn.tonal {
@@ -48,12 +48,14 @@
 
 
 .pui-btn.outlined:hover {
-    border: solid var(--pui-color-primay-light) 1.5px;
+    border: solid var(--pui-color-primary-light) 1.5px;
+    color: var(--pui-color-primary-light);
 }
 
 .pui-btn.outlined:active {
     transition: all 0.2s;
-    border: solid var(--pui-color-primay-strong) 1.5px;
+    border: solid var(--pui-color-primary-strong) 1.5px;
+    color: var(--pui-color-primary-strong);
 }
 
 .pui-btn.elevated {
@@ -62,9 +64,13 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0 1px 2px 0;
 }
 
+.pui-btn.elevated:hover {
+    background: var(--pui-color-secondary-light);
+    color: var(--pui-color-primary-light);
+}
 .pui-btn.elevated:active {
     transition: all 0.2s;
-    color: var(--pui-color-primay-strong);
+    color: var(--pui-color-primary-strong);
 }
 
 .pui-btn.text {
@@ -90,7 +96,7 @@
 }
 
 .pui-btn.link:hover {
-    color: var(--pui-color-primay-light);
+    color: var(--pui-color-primary-light);
 }
 
 .pui-btn.link:active {

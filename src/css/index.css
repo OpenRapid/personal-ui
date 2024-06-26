@@ -10,9 +10,9 @@
 :root {
     /* Color */
     --pui-color-primary: #2367DB;
-    --pui-color-primay-strong: #005EFF;
-    --pui-color-primay-light: #4D83E0;
-    --pui-color-primay-soft: #C6D7F7;
+    --pui-color-primary-strong: #005EFF;
+    --pui-color-primary-light: #4D83E0;
+    --pui-color-primary-soft: #C6D7F7;
     --pui-color-secondary: #BAD0F7;
     --pui-color-secondary-light: #EBF1F7;
     --pui-color-secondary-soft: #E4EDF7;
