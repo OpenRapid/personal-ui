@@ -1,3 +1,12 @@
+@import "./typogarphy.css";
+@import "./icon.css";
+@import "./button.css";
+@import "./breadcrumb.css";
+@import "./divider.css";
+@import "./avatar.css";
+@import "./chip.css";
+@import "./statistic.css";
+
 :root {
     /* Color */
     --pui-color-primary: #2367DB;
@@ -31,17 +40,17 @@
 
 @font-face {
     font-family: 'SourceHanSansSC';
-    src: url(/fonts/SourceHanSansSC-Normal.otf);
+    src: url(../fonts/SourceHanSansSC-Normal.otf);
 }
 
 @font-face {
     font-family: 'SourceHanSansSC-Medium';
-    src: url(/fonts/SourceHanSansSC-Medium.otf);
+    src: url(../fonts/SourceHanSansSC-Medium.otf);
 }
 
 @font-face {
     font-family: 'SourceHanSansSC-Bold';
-    src: url(/fonts/SourceHanSansSC-Bold.otf);
+    src: url(../fonts/SourceHanSansSC-Bold.otf);
 }
 
 * {

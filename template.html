@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PUI</title>
-    <link rel="stylesheet" href="personal.css">
+    <link rel="stylesheet" href="./src/css/index.css">
 </head>
 
 <body>
@@ -112,6 +112,53 @@
         <div class="pui-chip error">Error</div>
         <div class="pui-chip soft">Soft</div>
     </div>
+    <div class="pui-content">
+        <h1>Statistic - 统计</h1>
+        <div class="pui-statistic-group">
+            <div class="pui-statistic">
+                <div class="label">View</div>
+                <div class="value">123,456</div>
+            </div>
+            <div class="pui-statistic">
+                <div class="value">123,456</div>
+                <div class="label">View</div>
+            </div>
+            <div class="pui-statistic">
+                <div class="label">View</div>
+                <div class="value pui-text-color-primary">123,456</div>
+            </div>
+        </div>
+        <div class="pui-statistic-group">
+            <div class="pui-statistic">
+                <div class="label">View</div>
+                <div class="value pui-text-color-success">
+                    <span>123,456</span>
+                    <div class="icon">
+                        <icon class="pui-icon rounded">arrow_downward</icon>
+                    </div>
+                </div>
+            </div>
+            <div class="pui-statistic">
+                <div class="label">View</div>
+                <div class="value pui-text-color-error">
+                    <span>123,456</span>
+                    <div class="icon">
+                        <icon class="pui-icon rounded">arrow_upward</icon>
+                    </div>
+                </div>
+            </div>
+            <div class="pui-statistic">
+                <div class="label">View</div>
+                <div class="value">
+                    <span>123,456</span>
+                    <div class="icon pui-text-color-error">
+                        <icon class="pui-icon rounded">arrow_upward</icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./src/js/index.js"></script>
 </body>
 
 </html>

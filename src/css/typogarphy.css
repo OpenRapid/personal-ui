@@ -75,31 +75,31 @@ body {
 }
 
 .pui-text-color-primary {
-    color: var(--pui-color-primary);
+    color: var(--pui-color-primary)!important;
 }
 .pui-text-color-secondary {
-    color: var(--pui-color-secondary);
+    color: var(--pui-color-secondary)!important;
 }
 .pui-text-color-success {
-    color: var(--pui-color-success);
+    color: var(--pui-color-success)!important;
 }
 .pui-text-color-warning {
-    color: var(--pui-color-warning);
+    color: var(--pui-color-warning)!important;
 }
 .pui-text-color-error {
-    color: var(--pui-color-error);
+    color: var(--pui-color-error)!important;
 }
 .pui-text-color-description {
-    color: var(--pui-color-grey-strong);
+    color: var(--pui-color-grey-strong)!important;
 }
 .pui-text-color-black {
-    color: var(--pui-color-black);
+    color: var(--pui-color-black)!important;
 }
 .pui-text-color-white {
-    color: var(--pui-color-white);
+    color: var(--pui-color-white)!important;
 }
 .pui-text-color-disabled{
-    color: var(--pui-color-grey);
+    color: var(--pui-color-grey)!important;
 }
 .pui-text-weight-bold {
     font-family: 'SourceHanSansSC-Bold'!important;

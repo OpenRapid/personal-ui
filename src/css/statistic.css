@@ -1,0 +1,36 @@
+.pui-statistic{
+    font-family: 'SourceHanSansSC-Normal';
+    padding: 12px;
+    display:block;
+
+}
+.pui-statistic .label{
+    font-size: 14px;
+    color: var(--pui-color-grey-strong);
+    padding: 4px;
+
+}
+.pui-statistic .value{
+    font-size: 24px;
+    color: var(--pui-color-black);
+    font-family: 'SourceHanSansSC-Medium';
+    padding: 4px;
+
+}
+.pui-statistic .icon{
+    font-size: 16px;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    left:-6px;
+    top:2px;
+    font-weight:900;
+}
+
+.pui-statistic .value > *{
+    font-family: 'SourceHanSansSC-Medium';
+}
+.pui-statistic-group{
+    display: flex;
+    flex-wrap: wrap;
+}
