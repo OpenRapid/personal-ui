@@ -1,0 +1,23 @@
+.pui-avatar {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background: var(--pui-color-grey-light);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--pui-color-white);
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.pui-avatar.icon {
+    background: var(--pui-color-primary);
+    font-size: 25px;
+}
+
+.pui-avatar.radius {
+    border-radius: var(--pui-btn-border-radius);
+}
