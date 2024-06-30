@@ -6,6 +6,7 @@
 @import "./avatar.css";
 @import "./chip.css";
 @import "./statistic.css";
+@import "./card.css";
 
 :root {
     /* Color */

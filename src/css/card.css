@@ -1,0 +1,14 @@
+.pui-card {
+    width: 280px;
+    display: inline-flex;
+    border: 1.5px solid var(--pui-color-grey-light);
+    border-radius: 8px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.pui-card img {
+    width: 280px;
+    max-height: 150px;
+    object-fit: cover;
+}
