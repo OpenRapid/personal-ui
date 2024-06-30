@@ -56,7 +56,7 @@
         <button class="pui-btn success">Success</button>
         <button class="pui-btn warning">Warning</button>
         <button class="pui-btn error">Error</button>
-        <div class="pui-groups">
+        <div class="pui-btn-group">
             <button class="pui-btn filled">Button</button>
             <button class="pui-btn filled">Groups</button>
         </div>
@@ -105,13 +105,31 @@
         <div class="pui-avatar icon">
             <icon class="pui-icon rounded">person</icon>
         </div>
-        <img class="pui-avatar" src="./src/img/avatar.png" /><br>
+        <img class="pui-avatar" src="./src/img/avatar.png" />
+        <div class="pui-avatar-group">
+            <div class="pui-avatar icon">
+                <icon class="pui-icon rounded">person</icon>
+            </div>
+            <div class="pui-avatar function pui-background-color-primary-soft">
+                <icon class="pui-icon rounded pui-text-color-primary">edit</icon>
+            </div>
+        </div>
+
+        <br>
         <div class="pui-avatar radius">A</div>
         <div class="pui-avatar radius">1</div>
         <div class="pui-avatar radius icon">
             <icon class="pui-icon rounded">person</icon>
         </div>
         <img class="pui-avatar radius" src="./src/img/avatar.png" />
+        <div class="pui-avatar-group">
+            <div class="pui-avatar icon radius">
+                <icon class="pui-icon rounded">person</icon>
+            </div>
+            <div class="pui-avatar function radius pui-background-color-primary-soft">
+                <icon class="pui-icon rounded pui-text-color-primary">edit</icon>
+            </div>
+        </div>
     </div>
     <div class="pui-content">
         <h1>Chip - 纸片</h1>
@@ -146,7 +164,7 @@
                 <div class="value pui-text-color-success">
                     <span>123,456</span>
                     <div class="icon">
-                        <icon class="pui-icon rounded">arrow_downward</icon>
+                        <icon class="pui-icon rounded">arrow-downward</icon>
                     </div>
                 </div>
             </div>
@@ -155,7 +173,7 @@
                 <div class="value pui-text-color-error">
                     <span>123,456</span>
                     <div class="icon">
-                        <icon class="pui-icon rounded">arrow_upward</icon>
+                        <icon class="pui-icon rounded">arrow-upward</icon>
                     </div>
                 </div>
             </div>
@@ -164,7 +182,7 @@
                 <div class="value">
                     <span>123,456</span>
                     <div class="icon pui-text-color-error">
-                        <icon class="pui-icon rounded">arrow_upward</icon>
+                        <icon class="pui-icon rounded">arrow-upward</icon>
                     </div>
                 </div>
             </div>
@@ -180,7 +198,7 @@
             </div>
         </div>
     </div>
-    <script src="./src/js/index.js"></script>
+    <script type="module" src="./src/js/index.js"></script>
 </body>
 
 </html>

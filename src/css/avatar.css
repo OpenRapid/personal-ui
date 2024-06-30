@@ -21,3 +21,22 @@
 .pui-avatar.radius {
     border-radius: var(--pui-btn-border-radius);
 }
+
+.pui-avatar-group {
+    width:max-content;
+    height:max-content;
+    display: inline;
+}
+
+.pui-avatar-group .pui-avatar.icon {
+    margin-right: 0px !important;
+}
+
+
+
+.pui-avatar.function {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}

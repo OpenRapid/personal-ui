@@ -17,7 +17,7 @@ body {
     text-decoration: none;
 }
 
-/* Typogarphy */
+/* 排版 */
 .pui-content h1 {
     margin: 0;
     font-size: 36px;
@@ -74,39 +74,177 @@ body {
 
 }
 
+/* 文字颜色 */
 .pui-text-color-primary {
-    color: var(--pui-color-primary)!important;
+    color: var(--pui-color-primary) !important;
 }
+
 .pui-text-color-secondary {
-    color: var(--pui-color-secondary)!important;
+    color: var(--pui-color-secondary) !important;
 }
+
 .pui-text-color-success {
-    color: var(--pui-color-success)!important;
+    color: var(--pui-color-success) !important;
 }
+
 .pui-text-color-warning {
-    color: var(--pui-color-warning)!important;
+    color: var(--pui-color-warning) !important;
 }
+
 .pui-text-color-error {
-    color: var(--pui-color-error)!important;
+    color: var(--pui-color-error) !important;
 }
+
 .pui-text-color-description {
-    color: var(--pui-color-grey-strong)!important;
+    color: var(--pui-color-grey-strong) !important;
 }
+
 .pui-text-color-black {
-    color: var(--pui-color-black)!important;
+    color: var(--pui-color-black) !important;
 }
+
 .pui-text-color-white {
-    color: var(--pui-color-white)!important;
+    color: var(--pui-color-white) !important;
 }
-.pui-text-color-disabled{
-    color: var(--pui-color-grey)!important;
+
+.pui-text-color-primary-strong {
+    color: var(--pui-color-primary-strong) !important;
 }
+
+.pui-text-color-primary-light {
+    color: var(--pui-color-primary-light) !important;
+}
+
+.pui-text-color-primary-soft {
+    color: var(--pui-color-primary-soft) !important;
+}
+
+.pui-text-color-secondary-light {
+    color: var(--pui-color-secondary-light) !important;
+}
+
+.pui-text-color-secondary-soft {
+    color: var(--pui-color-secondary-soft) !important;
+}
+
+.pui-text-color-success-light {
+    color: var(--pui-color-success-light) !important;
+}
+
+.pui-text-color-success-strong {
+    color: var(--pui-color-success-strong) !important;
+}
+
+.pui-text-color-warning-light {
+    color: var(--pui-color-warning-light) !important;
+}
+
+.pui-text-color-warning-strong {
+    color: var(--pui-color-warning-strong) !important;
+}
+
+.pui-text-color-error-light {
+    color: var(--pui-color-error-light) !important;
+}
+
+.pui-text-color-error-strong {
+    color: var(--pui-color-error-strong) !important;
+}
+
+.pui-text-color-disabled {
+    color: var(--pui-color-grey) !important;
+}
+
+/* 文字粗细 */
 .pui-text-weight-bold {
-    font-family: 'SourceHanSansSC-Bold'!important;
+    font-family: 'SourceHanSansSC-Bold' !important;
 }
+
 .pui-text-weight-normal {
-    font-family: 'SourceHanSansSC-Normal'!important;
+    font-family: 'SourceHanSansSC-Normal' !important;
 }
+
 .pui-text-weight-medium {
-    font-family: 'SourceHanSansSC-Medium'!important;
+    font-family: 'SourceHanSansSC-Medium' !important;
+}
+
+/* 背景颜色 */
+.pui-background-color-primary {
+    background-color: var(--pui-color-primary) !important;
+}
+
+.pui-background-color-secondary {
+    background-color: var(--pui-color-secondary) !important;
+}
+
+.pui-background-color-success {
+    background-color: var(--pui-color-success) !important;
+}
+
+.pui-background-color-warning {
+    background-color: var(--pui-color-warning) !important;
+}
+
+.pui-background-color-error {
+    background-color: var(--pui-color-error) !important;
+}
+
+.pui-background-color-description {
+    background-color: var(--pui-color-grey-strong) !important;
+}
+
+.pui-background-color-black {
+    background-color: var(--pui-color-black) !important;
+}
+
+.pui-background-color-white {
+    background-color: var(--pui-color-white) !important;
+}
+
+.pui-background-color-primary-strong {
+    background-color: var(--pui-color-primary-strong) !important;
+}
+
+.pui-background-color-primary-light {
+    background-color: var(--pui-color-primary-light) !important;
+}
+
+.pui-background-color-primary-soft {
+    background-color: var(--pui-color-primary-soft) !important;
+}
+
+.pui-background-color-secondary-light {
+    background-color: var(--pui-color-secondary-light) !important;
+}
+
+.pui-background-color-secondary-soft {
+    background-color: var(--pui-color-secondary-soft) !important;
+}
+
+.pui-background-color-success-light {
+    background-color: var(--pui-color-success-light) !important;
+}
+
+.pui-background-color-success-strong {
+    background-color: var(--pui-color-success-strong) !important;
+}
+
+.pui-background-color-warning-light {
+    background-color: var(--pui-color-warning-light) !important;
+}
+
+.pui-background-color-warning-strong {
+    background-color: var(--pui-color-warning-strong) !important;
+}
+
+.pui-background-color-error-light {
+    background-color: var(--pui-color-error-light) !important;
+}
+
+.pui-background-color-error-strong {
+    background-color: var(--pui-color-error-strong) !important;
+}
+
+.pui-background-color-disabled {
+    background-color: var(--pui-color-grey) !important;
 }
