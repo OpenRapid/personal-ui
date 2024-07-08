@@ -1,6 +1,6 @@
 {
   "name": "persionalui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "灵活可变 / flexible",
   "main": "./js/index.js",
   "scripts": {
