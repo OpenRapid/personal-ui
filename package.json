@@ -1,0 +1,15 @@
+{
+  "name": "persionalui",
+  "version": "1.0.0",
+  "description": "灵活可变 / flexible",
+  "main": "./js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/rapid---open-source/personal-ui.git"
+  },
+  "author": "rapid team",
+  "license": "MIT"
+}
