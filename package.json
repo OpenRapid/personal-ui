@@ -1,8 +1,8 @@
 {
-  "name": "persionalui",
-  "version": "1.0.2",
+  "name": "personalui",
+  "version": "1.0.0",
   "description": "灵活可变 / flexible",
-  "main": "./js/index.js",
+  "main": "./src/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
