@@ -3,6 +3,10 @@
 #### 介绍
 PersonalUI 是一款高效简洁的原生CSS UI库
 
+#### 仓库
+- [Gitee](https://gitee.com/rapidteam/personal-ui)
+- [Github](https://github.com/OpenRapid/personal-ui)
+
 #### 留言
 爱来自git提交
 
