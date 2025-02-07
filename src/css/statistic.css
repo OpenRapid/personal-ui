@@ -1,36 +1,44 @@
-.pui-statistic{
+.pui-statistic {
     font-family: 'SourceHanSansSC-Normal';
     padding: 12px;
-    display:block;
+    display: block;
 
 }
-.pui-statistic .label{
+
+.pui-statistic .label {
     font-size: 14px;
     color: var(--pui-color-grey-strong);
     padding: 4px;
 
 }
-.pui-statistic .value{
+
+.pui-statistic .content {
     font-size: 24px;
     color: var(--pui-color-black);
     font-family: 'SourceHanSansSC-Medium';
     padding: 4px;
-
 }
-.pui-statistic .icon{
+
+.pui-statistic .value {
+    font-family: 'SourceHanSansSC-Medium';
+    display: inline;
+}
+
+.pui-statistic .icon {
     font-size: 16px;
     display: inline-block;
     padding: 0;
     position: relative;
-    left:-6px;
-    top:2px;
-    font-weight:900;
+    left: -6px;
+    top: 2px;
+    font-weight: 900;
 }
 
-.pui-statistic .value > *{
+.pui-statistic .value>* {
     font-family: 'SourceHanSansSC-Medium';
 }
-.pui-statistic-group{
+
+.pui-statistic-group {
     display: flex;
     flex-wrap: wrap;
 }

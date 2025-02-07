@@ -41,6 +41,7 @@
         <button class="pui-btn outlined">Outlined</button>
         <button class="pui-btn elevated">Elevated</button>
         <button class="pui-btn text">Text</button>
+        <button class="pui-btn small">Small Button</button>
         <button class="pui-btn filled full-width">Full Width</button>
         <button class="pui-btn filled icon">
             <icon class="pui-icon rounded">menu</icon>
@@ -147,22 +148,28 @@
         <div class="pui-statistic-group">
             <div class="pui-statistic">
                 <div class="label">View</div>
-                <div class="value">123,456</div>
+                <div class="content">
+                    <div class="value">123456</div>
+                </div>
             </div>
             <div class="pui-statistic">
-                <div class="value">123,456</div>
+                <div class="content">
+                    <div class="value">123456</div>
+                </div>
                 <div class="label">View</div>
             </div>
             <div class="pui-statistic">
                 <div class="label">View</div>
-                <div class="value pui-text-color-primary">123,456</div>
+                <div class="content">
+                    <div class="value">123456</div>
+                </div>
             </div>
         </div>
         <div class="pui-statistic-group">
             <div class="pui-statistic">
                 <div class="label">View</div>
-                <div class="value pui-text-color-success">
-                    <span>123,456</span>
+                <div class="content pui-text-color-success">
+                    <div class="value">123456</div>
                     <div class="icon">
                         <icon class="pui-icon rounded">arrow-downward</icon>
                     </div>
@@ -170,8 +177,8 @@
             </div>
             <div class="pui-statistic">
                 <div class="label">View</div>
-                <div class="value pui-text-color-error">
-                    <span>123,456</span>
+                <div class="content pui-text-color-error">
+                    <div class="value">123,456</div>
                     <div class="icon">
                         <icon class="pui-icon rounded">arrow-upward</icon>
                     </div>
@@ -179,24 +186,113 @@
             </div>
             <div class="pui-statistic">
                 <div class="label">View</div>
-                <div class="value">
-                    <span>123,456</span>
+                <div class="content">
+                    <div class="value">123456</div>
                     <div class="icon pui-text-color-error">
                         <icon class="pui-icon rounded">arrow-upward</icon>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="pui-statistic-group">
+            <div class="pui-statistic count">
+                <div class="label">View</div>
+                <div class="content pui-text-color-success">
+                    <div class="value">123456</div>
+                    <div class="icon">
+                        <icon class="pui-icon rounded">arrow-downward</icon>
+                    </div>
+                </div>
+            </div>
+            <div class="pui-statistic count">
+                <div class="label">View</div>
+                <div class="content pui-text-color-error">
+                    <div class="value">123,456</div>
+                    <div class="icon">
+                        <icon class="pui-icon rounded">arrow-upward</icon>
+                    </div>
+                </div>
+            </div>
+            <div class="pui-statistic count" id="counting">
+                <div class="label">View (Press Button to Count)</div>
+                <div class="content">
+                    <div class="value">123,456</div>
+                    <div class="icon pui-text-color-error">
+                        <icon class="pui-icon rounded">arrow-upward</icon>
+                    </div>
+                </div>
+                <button class="pui-btn filled small" onclick="$('#counting').count(2000)">2s</button>
+                <button class="pui-btn filled small" onclick="$('#counting').count(1000)">1s</button>
+            </div>
+        </div>
     </div>
     <div class="pui-content">
         <h1>Card - 卡片</h1>
-        <div class="pui-card">
+        <div class="pui-card" style="width:290px">
             <img src="./src/img/background.png" alt="">
             <div class="pui-content">
-                <h5>I think I am a card title</h5>
-                <p>Content</p>
+                <div class="pui-card-title">
+                    <h5>I think I am a card title</h5>
+                </div>
+                <div class="pui-card-content">
+                    <p>Lorem ipsum dolor sit amet, est te viderer persecuti. In quod stet praesent usu, eam ex possim
+                        persius iudicabit. Ne nec sonet offendit percipitur.</p>
+                </div>
+                <div class="pui-card-actions">
+                    <button class="pui-btn outlined small">Cancel</button>
+                    <button class="pui-btn filled small">Confirm</button>
+                </div>
             </div>
         </div>
+        <div class="pui-card" style="width:290px">
+            <img src="./src/img/background.png" alt="">
+            <div class="pui-content">
+                <div class="pui-card-title">
+                    <h5>I think I am a card title</h5>
+                </div>
+                <div class="pui-card-content">
+                    <p>Lorem ipsum dolor sit amet, est te viderer persecuti. In quod stet praesent usu, eam ex possim
+                        persius iudicabit. Ne nec sonet offendit percipitur.</p>
+                </div>
+                <div class="pui-card-actions">
+                    <div class="pui-avatar radius icon">
+                        <icon class="pui-icon rounded">person</icon>
+                    </div>
+                    <div class="pui-content">
+                        <p class="pui-text-color-black">Edogawa Conan</p>
+                        <p class="pui-text-color-description">87312370 days ago</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="pui-card" style="width:290px">
+            <img src="./src/img/background.png" alt="">
+            <div class="pui-content">
+                <div class="pui-card-title">
+                    <h5>I think I am a card title</h5>
+                </div>
+                <div class="pui-card-content">
+                    <p>Lorem ipsum dolor sit amet, est te viderer persecuti. In quod stet praesent usu, eam ex possim
+                        persius iudicabit. Ne nec sonet offendit percipitur.</p>
+                </div>
+                <div class="pui-card-actions small">
+                    <div class="pui-avatar icon">
+                        <icon class="pui-icon rounded">person</icon>
+                    </div>
+                    <div class="pui-content">
+                        <p class="pui-text-color-black">Edogawa Conan</p>
+                    </div>
+                    <div class="pui-function">
+                        <icon class="pui-icon filled">share</icon>
+                        <icon class="pui-icon filled">more-horiz</icon>
+                    </div>
+              
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     <script type="module" src="./src/js/index.js"></script>
 </body>

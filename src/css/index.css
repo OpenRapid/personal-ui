@@ -36,6 +36,7 @@
     /* Button */
     --pui-btn-padding: 9px 30px;
     --pui-btn-border-radius: 6px;
+    --pui-btn-small-border-radius: 5px;
 }
 
 

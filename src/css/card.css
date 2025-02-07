@@ -1,14 +1,86 @@
 .pui-card {
-    width: 280px;
+    width: fit-content;
     display: inline-flex;
-    border: 1.5px solid var(--pui-color-grey-light);
+    border: 1px solid var(--pui-color-grey-light);
     border-radius: 8px;
     overflow: hidden;
     flex-direction: column;
+    margin: 5px;
 }
 
 .pui-card img {
-    width: 280px;
+    width: 100%;
     max-height: 150px;
     object-fit: cover;
+}
+
+.pui-card-title {
+    padding: 5px;
+}
+
+.pui-card-content {
+    width: 100%;
+    color: var(--pui-color-grey-strong);
+    padding: 5px
+}
+
+.pui-card-actions {
+    display: flex;
+    padding: 5px;
+    width:100%
+}
+
+.pui-card-actions .pui-btn {
+    display: inline-block;
+    margin-right: 8px;
+    flex: 1;
+}
+
+.pui-card-actions .pui-btn:last-child {
+    margin-right: 0;
+}
+
+.pui-card-actions .pui-avatar {
+    margin: 0;
+    margin-top: 2px;
+    height:37px;
+    width:37px;
+}
+
+.pui-card-actions.small .pui-avatar{
+    height:22px;
+    width:22px
+}
+
+.pui-card-actions.small .pui-avatar .pui-icon{
+    font-size: 15px;
+}
+.pui-card-actions .pui-content {
+    padding: 0 10px 0 10px;
+}
+
+.pui-card-actions.small .pui-content {
+    padding: 2px 10px 2px 8px;
+}
+
+.pui-card-actions.small .pui-function {
+    padding: 4px 10px 2px 8px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.pui-card-actions.small .pui-function .pui-icon{
+    color:var(--pui-color-grey-strong);
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 13px;
+
+}
+
+.pui-card-actions .pui-content .pui-text-color-black {
+    font-size: 12px;
+}
+
+.pui-card-actions .pui-content .pui-text-color-description {
+    font-size: 12px;
 }

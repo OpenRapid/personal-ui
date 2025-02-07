@@ -58,6 +58,18 @@
     color: var(--pui-color-primary-strong);
 }
 
+.pui-btn.outlined.small {
+    border: solid var(--pui-color-primary) 1px;
+}
+
+.pui-btn.outlined.small:hover {
+    border: solid var(--pui-color-primary-light) 1px;
+}
+
+.pui-btn.outlined.small:active {
+    border: solid var(--pui-color-primary-strong) 1px;
+}
+
 .pui-btn.elevated {
     background: var(--pui-color-secondary-light);
     color: var(--pui-color-primary);
@@ -68,6 +80,7 @@
     background: var(--pui-color-secondary-light);
     color: var(--pui-color-primary-light);
 }
+
 .pui-btn.elevated:active {
     transition: all 0.2s;
     color: var(--pui-color-primary-strong);
@@ -149,6 +162,19 @@
 .pui-btn.error:active {
     transition: all 0.2s;
     background: var(--pui-color-error-strong);
+}
+
+.pui-btn.small {
+    width: fit-content;
+    height: 30px;
+    font-size: 14px;
+    padding: 0 12px 0 12px;
+    border-radius: var(--pui-btn-small-border-radius);
+    ;
+}
+
+.pui-card .pui-btn {
+    margin-left: 0;
 }
 
 .pui-btn-group {
