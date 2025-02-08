@@ -42,6 +42,11 @@
         <button class="pui-btn elevated">Elevated</button>
         <button class="pui-btn text">Text</button>
         <button class="pui-btn small">Small Button</button>
+        <button class="pui-btn filled small">Small Button</button>
+        <div class="pui-btn-group">
+            <button class="pui-btn filled small">Small Button</button>
+            <button class="pui-btn filled small">Groups</button>
+        </div>
         <button class="pui-btn filled full-width">Full Width</button>
         <button class="pui-btn filled icon">
             <icon class="pui-icon rounded">menu</icon>
@@ -221,8 +226,8 @@
                         <icon class="pui-icon rounded">arrow-upward</icon>
                     </div>
                 </div>
-                <button class="pui-btn filled small" onclick="$('#counting').count(2000)">2s</button>
-                <button class="pui-btn filled small" onclick="$('#counting').count(1000)">1s</button>
+                <button class="pui-btn filled small" onclick="pui_$('#counting').count(2000)">2s</button>
+                <button class="pui-btn filled small" onclick="pui_$('#counting').count(1000)">1s</button>
             </div>
         </div>
     </div>
@@ -288,8 +293,33 @@
                         <icon class="pui-icon filled">share</icon>
                         <icon class="pui-icon filled">more-horiz</icon>
                     </div>
-              
+
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="pui-content">
+        <h1>Tab - 标签页</h1>
+        <div class="pui-tab">
+            <div class="pui-tab-item checked">
+                Tab1
+            </div>
+            <div class="pui-tab-item">
+                Tab2
+            </div>
+            <div class="pui-tab-item disabled">
+                Disabled
+            </div>
+        </div>
+        <div class="pui-tab length">
+            <div class="pui-tab-item checked">
+                Tab3
+            </div>
+            <div class="pui-tab-item">
+                Tab4
+            </div>
+            <div class="pui-tab-item">
+                Tab5
             </div>
         </div>
     </div>

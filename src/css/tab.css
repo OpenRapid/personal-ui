@@ -1,0 +1,41 @@
+.pui-tab {
+    padding: 5px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.pui-tab-item {
+    padding: 5px 18px 5px 18px;
+    margin: 3px;
+    width: fit-content;
+    border-radius: 18px;
+    font-family: 'SourceHanSansSC-Medium';
+    display: inline;
+}
+
+.pui-tab.length .pui-tab-item{
+    display:block;
+    margin: 10px 5px 10px 5px; 
+}
+
+.pui-tab-item:hover {
+    background-color: var(--pui-color-grey-soft);
+}
+
+.pui-tab-item.checked {
+    background-color: var(--pui-color-secondary-soft);
+    color: var(--pui-color-primary);
+}
+
+.pui-tab-item.checked:hover {
+    background-color: var(--pui-color-secondary-soft);
+}
+
+.pui-tab-item.disabled {
+    color: var(--pui-color-grey-light);
+    cursor: not-allowed;
+}
+
+.pui-tab-item.disabled:hover {
+    background-color: unset;
+}

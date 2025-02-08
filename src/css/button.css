@@ -187,4 +187,15 @@
 .pui-btn-group .pui-btn {
     border-radius: 0;
     margin: 0;
+    margin-left: 1px
+}
+
+.pui-btn-group .pui-btn.small {
+    border-radius: 0;
+    margin: 0;
+    margin-left: 0.5px
+}
+
+.pui-btn-group .pui-btn:first-child {
+    margin-left: 0px
 }

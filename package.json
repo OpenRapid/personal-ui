@@ -1,6 +1,6 @@
 {
   "name": "rapid-pui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "灵活可变 / flexible",
   "main": "./src/js/index.js",
   "scripts": {
@@ -8,11 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OpenRapid/personal-ui.git"
+    "url": "git+https://github.com/OpenRapid/personal-ui.git"
   },
   "author": "rapid team",
-  "license": "MIT",
-  "dependencies": {
-    "rapid-pui": "^1.0.1"
-  }
+  "license": "MIT"
 }

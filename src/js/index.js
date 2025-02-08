@@ -1,11 +1,12 @@
-// Copyright © 2024 OpenRapid. All rights reserved.
-console.log("Personal UI dev.0.0.1")
-//console.log("by OpenRapid. No Wing, No Ahead")
-console.log("Load js file")
+window.pui_$= document.querySelector.bind(document);
+window.pui_$$ = document.querySelectorAll.bind(document);
 
-window.$= document.querySelector.bind(document);
-window.$$ = document.querySelectorAll.bind(document);
-
+import "./console.js"
 import "./avatar.js"
 import "./icon.js"
 import "./statistic.js"
+import "./tab.js"
+
+//console.clear();
+pui_console.primary("Personal UI",'primary');
+pui_console.success("Js File Is Loaded",'success');
