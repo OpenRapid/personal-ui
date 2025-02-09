@@ -14,6 +14,10 @@
     color: var(--pui-color-black);
 }
 
+.pui-chip.rounded{
+    border-radius: 28px;
+}
+
 .pui-chip.outlined {
     background: none;
     border: solid var(--pui-color-primary) 1px;

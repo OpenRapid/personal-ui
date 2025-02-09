@@ -59,3 +59,179 @@
 * {
     font-family: 'SourceHanSansSC';
 }
+
+.pui-color-primary {
+    color: var(--pui-color-primary)!important;
+}
+
+.pui-color-primary-strong {
+    color: var(--pui-color-primary-strong)!important;
+}
+
+.pui-color-primary-light {
+    color: var(--pui-color-primary-light)!important;
+}
+
+.pui-color-primary-soft {
+    color: var(--pui-color-primary-soft)!important;
+}
+
+.pui-color-secondary {
+    color: var(--pui-color-secondary)!important;
+}
+
+.pui-color-secondary-light {
+    color: var(--pui-color-secondary-light)!important;
+}
+
+.pui-color-secondary-soft {
+    color: var(--pui-color-secondary-soft)!important;
+}
+
+.pui-color-success {
+    color: var(--pui-color-success)!important;
+}
+
+.pui-color-success-light {
+    color: var(--pui-color-success-light)!important;
+}
+
+.pui-color-success-strong {
+    color: var(--pui-color-success-strong)!important;
+}
+
+.pui-color-warning {
+    color: var(--pui-color-warning)!important;
+}
+
+.pui-color-warning-light {
+    color: var(--pui-color-warning-light)!important;
+}
+
+.pui-color-warning-strong {
+    color: var(--pui-color-warning-strong)!important;
+}
+
+.pui-color-error {
+    color: var(--pui-color-error)!important;
+}
+
+.pui-color-error-light {
+    color: var(--pui-color-error-light)!important;
+}
+
+.pui-color-error-strong {
+    color: var(--pui-color-error-strong)!important;
+}
+
+.pui-color-grey {
+    color: var(--pui-color-grey)!important;
+}
+
+.pui-color-grey-soft {
+    color: var(--pui-color-grey-soft)!important;
+}
+
+.pui-color-grey-light {
+    color: var(--pui-color-grey-light)!important;
+}
+
+.pui-color-grey-strong {
+    color: var(--pui-color-grey-strong)!important;
+}
+
+.pui-color-white {
+    color: var(--pui-color-white)!important;
+}
+
+.pui-color-black {
+    color: var(--pui-color-black)!important;
+}
+
+.pui-backcolor-primary {
+    background-color: var(--pui-color-primary)!important;
+}
+
+.pui-backcolor-primary-strong {
+    background-color: var(--pui-color-primary-strong)!important;
+}
+
+.pui-backcolor-primary-light {
+    background-color: var(--pui-color-primary-light)!important;
+}
+
+.pui-backcolor-primary-soft {
+    background-color: var(--pui-color-primary-soft)!important;
+}
+
+.pui-backcolor-secondary {
+    background-color: var(--pui-color-secondary)!important;
+}
+
+.pui-backcolor-secondary-light {
+    background-color: var(--pui-color-secondary-light)!important;
+}
+
+.pui-backcolor-secondary-soft {
+    background-color: var(--pui-color-secondary-soft)!important;
+}
+
+.pui-backcolor-success {
+    background-color: var(--pui-color-success)!important;
+}
+
+.pui-backcolor-success-light {
+    background-color: var(--pui-color-success-light)!important;
+}
+
+.pui-backcolor-success-strong {
+    background-color: var(--pui-color-success-strong)!important;
+}
+
+.pui-backcolor-warning {
+    background-color: var(--pui-color-warning)!important;
+}
+
+.pui-backcolor-warning-light {
+    background-color: var(--pui-color-warning-light)!important;
+}
+
+.pui-backcolor-warning-strong {
+    background-color: var(--pui-color-warning-strong)!important;
+}
+
+.pui-backcolor-error {
+    background-color: var(--pui-color-error)!important;
+}
+
+.pui-backcolor-error-light {
+    background-color: var(--pui-color-error-light)!important;
+}
+
+.pui-backcolor-error-strong {
+    background-color: var(--pui-color-error-strong)!important;
+}
+
+.pui-backcolor-grey {
+    background-color: var(--pui-color-grey)!important;
+}
+
+.pui-backcolor-grey-soft {
+    background-color: var(--pui-color-grey-soft)!important;
+}
+
+.pui-backcolor-grey-light {
+    background-color: var(--pui-color-grey-light)!important;
+}
+
+.pui-backcolor-grey-strong {
+    background-color: var(--pui-color-grey-strong)!important;
+}
+
+.pui-backcolor-white {
+    background-color: var(--pui-color-white)!important;
+}
+
+.pui-backcolor-black {
+    background-color: var(--pui-color-black)!important;
+}

@@ -1,7 +1,7 @@
 .pui-card {
     width: fit-content;
     display: inline-flex;
-    border: 1px solid var(--pui-color-grey-light);
+    box-shadow: 0 0 2px 0 var(--pui-color-grey-light);
     border-radius: 8px;
     overflow: hidden;
     flex-direction: column;

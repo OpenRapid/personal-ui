@@ -32,30 +32,126 @@
 }
 
 .pui-btn.tonal:hover {
-    background: var(--pui-color-secondary-light);
+    background: none;
+    background: var(--pui-color-primary-soft);
 }
 
 .pui-btn.tonal:active {
+    background: none;
     transition: all 0.2s;
-    background: var(--pui-color-secondary-soft);
+    background: var(--pui-color-secondary-light);
 }
 
 .pui-btn.outlined {
     background: none;
-    border: solid var(--pui-color-primary) 1.5px;
-    color: var(--pui-color-primary);
+    border: solid var(--pui-color-black) 1.5px;
+    color: var(--pui-color-black);
 }
 
+.pui-btn.outlined.filled{
+    background:none;
+    color: var(--pui-color-primary);
+    border: solid var(--pui-color-primary) 1.5px;
+}
 
-.pui-btn.outlined:hover {
+.pui-btn.outlined.filled:hover {
     border: solid var(--pui-color-primary-light) 1.5px;
     color: var(--pui-color-primary-light);
 }
 
-.pui-btn.outlined:active {
+.pui-btn.outlined.filled:active {
     transition: all 0.2s;
     border: solid var(--pui-color-primary-strong) 1.5px;
     color: var(--pui-color-primary-strong);
+}
+
+.pui-btn.outlined.tonal {
+    background: none;
+    color: var(--pui-color-secondary);
+    border: solid var(--pui-color-secondary) 1.5px;
+}
+
+.pui-btn.outlined.tonal:hover {
+    border: solid var(--pui-color-primary-soft) 1.5px;
+    color: var(--pui-color-primary-soft);
+}
+
+.pui-btn.outlined.tonal:active {
+    transition: all 0.2s;
+    border: solid var(--pui-color-secondary-light) 1.5px;
+    color: var(--pui-color-secondary-light);
+}
+
+.pui-btn.outlined.success {
+    background: none;
+    color: var(--pui-color-success);
+    border: solid var(--pui-color-success) 1.5px;
+}
+
+.pui-btn.outlined.success:hover {
+    background: none;
+    border: solid var(--pui-color-success-light) 1.5px;
+    color: var(--pui-color-success-light);
+}
+
+.pui-btn.outlined.success:active {
+    background: none;
+    transition: all 0.2s;
+    border: solid var(--pui-color-success-strong) 1.5px;
+    color: var(--pui-color-success-strong);
+}
+
+.pui-btn.outlined.warning{
+    background: none;
+    color: var(--pui-color-warning);
+    border: solid var(--pui-color-warning) 1.5px;
+}
+
+.pui-btn.outlined.warning:hover {
+    background: none;
+    border: solid var(--pui-color-warning-light) 1.5px;
+    color: var(--pui-color-warning-light);
+}
+
+.pui-btn.outlined.warning:active {
+    background: none;
+    transition: all 0.2s;
+    border: solid var(--pui-color-warning-strong) 1.5px;
+    color: var(--pui-color-warning-strong);
+}
+
+.pui-btn.outlined.error {
+    background: none;
+    color: var(--pui-color-error);
+    border: solid var(--pui-color-error) 1.5px;
+}
+
+.pui-btn.outlined.error:hover {
+    background: none;
+    border: solid var(--pui-color-error-light) 1.5px;
+    color: var(--pui-color-error-light);
+}
+
+.pui-btn.outlined.error:active {
+    background: none;
+    transition: all 0.2s;
+    border: solid var(--pui-color-error-strong) 1.5px;
+    color: var(--pui-color-error-strong);
+}
+
+.pui-btn.outlined:disabled{
+    background: none;
+    color: var(--pui-color-grey-light);
+    border: solid var(--pui-color-grey-light) 1.5px;
+}
+
+.pui-btn-group .pui-btn.outlined:not(:first-child){
+    margin-left: -1.5px;
+}
+
+
+.pui-btn.rounded {
+    border-radius: 32px;
 }
 
 .pui-btn.outlined.small {
@@ -84,6 +180,10 @@
 .pui-btn.elevated:active {
     transition: all 0.2s;
     color: var(--pui-color-primary-strong);
+}
+
+.pui-btn.shadow{
+    box-shadow: 1px 1px 4px 0 var(--pui-color-grey-light);
 }
 
 .pui-btn.text {
@@ -185,17 +285,26 @@
 }
 
 .pui-btn-group .pui-btn {
-    border-radius: 0;
     margin: 0;
     margin-left: 1px
 }
 
 .pui-btn-group .pui-btn.small {
-    border-radius: 0;
     margin: 0;
     margin-left: 0.5px
 }
 
 .pui-btn-group .pui-btn:first-child {
-    margin-left: 0px
+    margin-left: 0px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.pui-btn-group .pui-btn:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.pui-btn-group .pui-btn:not(:first-child):not(:last-child) {
+    border-radius: 0;
 }
