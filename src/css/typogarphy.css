@@ -74,84 +74,12 @@ body {
 
 }
 
-/* 文字颜色 */
-.pui-text-color-primary {
-    color: var(--pui-color-primary) !important;
-}
 
-.pui-text-color-secondary {
-    color: var(--pui-color-secondary) !important;
-}
-
-.pui-text-color-success {
-    color: var(--pui-color-success) !important;
-}
-
-.pui-text-color-warning {
-    color: var(--pui-color-warning) !important;
-}
-
-.pui-text-color-error {
-    color: var(--pui-color-error) !important;
-}
-
-.pui-text-color-description {
+.pui-text-description {
     color: var(--pui-color-grey-strong) !important;
 }
 
-.pui-text-color-black {
-    color: var(--pui-color-black) !important;
-}
-
-.pui-text-color-white {
-    color: var(--pui-color-white) !important;
-}
-
-.pui-text-color-primary-strong {
-    color: var(--pui-color-primary-strong) !important;
-}
-
-.pui-text-color-primary-light {
-    color: var(--pui-color-primary-light) !important;
-}
-
-.pui-text-color-primary-soft {
-    color: var(--pui-color-primary-soft) !important;
-}
-
-.pui-text-color-secondary-light {
-    color: var(--pui-color-secondary-light) !important;
-}
-
-.pui-text-color-secondary-soft {
-    color: var(--pui-color-secondary-soft) !important;
-}
-
-.pui-text-color-success-light {
-    color: var(--pui-color-success-light) !important;
-}
-
-.pui-text-color-success-strong {
-    color: var(--pui-color-success-strong) !important;
-}
-
-.pui-text-color-warning-light {
-    color: var(--pui-color-warning-light) !important;
-}
-
-.pui-text-color-warning-strong {
-    color: var(--pui-color-warning-strong) !important;
-}
-
-.pui-text-color-error-light {
-    color: var(--pui-color-error-light) !important;
-}
-
-.pui-text-color-error-strong {
-    color: var(--pui-color-error-strong) !important;
-}
-
-.pui-text-color-disabled {
+.pui-text-disabled {
     color: var(--pui-color-grey) !important;
 }
 

@@ -188,7 +188,7 @@
 
 .pui-btn.text {
     background: none;
-    color: var(--pui-color-black);
+   /*color: var(--pui-color-black);*/
 }
 
 .pui-btn.full-width {

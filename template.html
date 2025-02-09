@@ -17,17 +17,18 @@
         <h4>H4. This Is Title</h4>
         <h5>H5. This Is Title</h5>
         <h6>H6. This Is Title</h6>
-        <p class="pui-text-color-black">Black</p>
+        <p class="pui-color-black">Black</p>
         <div style="background-color: var(--pui-color-black);width:fit-content">
-            <p class="pui-text-color-white">White</p>
+            <p class="pui-color-white">White</p>
         </div>
-        <p class="pui-text-color-primary">Primary</p>
-        <p class="pui-text-color-secondary">Secondary</p>
-        <p class="pui-text-color-success">Success</p>
-        <p class="pui-text-color-warning">Warning</p>
-        <p class="pui-text-color-error">Error</p>
-        <p class="pui-text-color-description">Description</p>
-        <p class="pui-text-color-disabled">Disabled</p>
+        <p class="pui-color-primary">Primary</p>
+        <p class="pui-backcolor-secondary pui-color-primary">Primary With Bg</p>
+        <p class="pui-color-secondary">Secondary</p>
+        <p class="pui-color-success">Success</p>
+        <p class="pui-color-warning">Warning</p>
+        <p class="pui-color-error">Error</p>
+        <p class="pui-text-description">Description</p>
+        <p class="pui-text-disabled">Disabled</p>
         <p class="pui-text-weight-bold">Bold</p>
         <p class="pui-text-weight-normal">Normal</p>
         <p class="pui-text-weight-medium">Medium</p>
@@ -94,6 +95,9 @@
         </div>
         <br>
         <button class="pui-btn text">Text</button>
+        <button class="pui-btn pui-color-success text">Text</button>
+        <button class="pui-btn pui-color-warning text">Text</button>
+        <button class="pui-btn pui-color-error text">Text</button>
         <button class="pui-btn link">Link</button>
         <br>
         <button class="pui-btn filled icon">
@@ -122,8 +126,6 @@
         <icon class="pui-icon rounded" style="font-size: 36px;">home</icon>
         <icon class="pui-icon outlined" style="font-size: 36px;">home</icon>
         <icon class="pui-icon sharp" style="font-size: 36px;">home</icon>
-        <icon class="pui-icon twotone" style="font-size: 36px;">home</icon>
-        <icon class="pui-icon filled" style="font-size: 36px;">home</icon>
         <icon class="pui-icon rounded" style="font-size: 24px;">home</icon>
         <icon class="pui-icon rounded pui-color-primary" style="font-size: 36px">home</icon>
     </div>
@@ -167,7 +169,7 @@
                 <icon class="pui-icon rounded">person</icon>
             </div>
             <div class="pui-avatar function pui-background-color-primary-soft">
-                <icon class="pui-icon rounded pui-text-color-primary">edit</icon>
+                <icon class="pui-icon rounded pui-color-primary">edit</icon>
             </div>
         </div>
 
@@ -183,7 +185,7 @@
                 <icon class="pui-icon rounded">person</icon>
             </div>
             <div class="pui-avatar function radius pui-background-color-primary-soft">
-                <icon class="pui-icon rounded pui-text-color-primary">edit</icon>
+                <icon class="pui-icon rounded pui-color-primary">edit</icon>
             </div>
         </div>
     </div>
@@ -232,7 +234,7 @@
         <div class="pui-statistic-group">
             <div class="pui-statistic">
                 <div class="label">View</div>
-                <div class="content pui-text-color-success">
+                <div class="content pui-color-success">
                     <div class="value">123456</div>
                     <div class="icon">
                         <icon class="pui-icon rounded">arrow-downward</icon>
@@ -241,7 +243,7 @@
             </div>
             <div class="pui-statistic">
                 <div class="label">View</div>
-                <div class="content pui-text-color-error">
+                <div class="content pui-color-error">
                     <div class="value">123,456</div>
                     <div class="icon">
                         <icon class="pui-icon rounded">arrow-upward</icon>
@@ -252,7 +254,7 @@
                 <div class="label">View</div>
                 <div class="content">
                     <div class="value">123456</div>
-                    <div class="icon pui-text-color-error">
+                    <div class="icon pui-color-error">
                         <icon class="pui-icon rounded">arrow-upward</icon>
                     </div>
                 </div>
@@ -261,7 +263,7 @@
         <div class="pui-statistic-group">
             <div class="pui-statistic count">
                 <div class="label">View</div>
-                <div class="content pui-text-color-success">
+                <div class="content pui-color-success">
                     <div class="value">123456</div>
                     <div class="icon">
                         <icon class="pui-icon rounded">arrow-downward</icon>
@@ -270,7 +272,7 @@
             </div>
             <div class="pui-statistic count">
                 <div class="label">View</div>
-                <div class="content pui-text-color-error">
+                <div class="content pui-color-error">
                     <div class="value">123,456</div>
                     <div class="icon">
                         <icon class="pui-icon rounded">arrow-upward</icon>
@@ -281,7 +283,7 @@
                 <div class="label">View (Press Button to Count)</div>
                 <div class="content">
                     <div class="value">123,456</div>
-                    <div class="icon pui-text-color-error">
+                    <div class="icon pui-color-error">
                         <icon class="pui-icon rounded">arrow-upward</icon>
                     </div>
                 </div>
@@ -323,8 +325,8 @@
                         <icon class="pui-icon rounded pui-color-primary">person</icon>
                     </div>
                     <div class="pui-content">
-                        <p class="pui-text-color-black">Edogawa Conan</p>
-                        <p class="pui-text-color-description">87312370 days ago</p>
+                        <p class="pui-color-black">Edogawa Conan</p>
+                        <p class="pui-text-description">87312370 days ago</p>
 
                     </div>
 
@@ -346,7 +348,7 @@
                         <icon class="pui-icon rounded pui-color-primary">person</icon>
                     </div>
                     <div class="pui-content">
-                        <p class="pui-text-color-black">Edogawa Conan</p>
+                        <p class="pui-color-black">Edogawa Conan</p>
                     </div>
                     <div class="pui-function">
                         <icon class="pui-icon filled">share</icon>
