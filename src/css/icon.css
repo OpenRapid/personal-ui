@@ -1,22 +1,18 @@
 @font-face {
     font-family: 'icon-outlined';
-    src: url('../fonts/MaterialIconsOutlined-Regular.otf');
+    src: url('../fonts/MaterialSymbolsOutlined.woff2');
 }
 @font-face {
     font-family: 'icon-rounded';
-    src: url('../fonts/MaterialIconsRound-Regular.otf');
+    src: url('../fonts/MaterialSymbolsRounded.woff2');
 }
 @font-face {
     font-family: 'icon-sharp';
-    src: url('../fonts/MaterialIconsSharp-Regular.otf');
+    src: url('../fonts/MaterialSymbolsSharp.woff2');
 }
-@font-face {
-    font-family: 'icon-twotone';
-    src: url('../fonts/MaterialIconsTwoTone-Regular.otf');
-}
-@font-face {
-    font-family: 'icon-filled';
-    src: url('../fonts/MaterialIcons-Regular.ttf');
+
+.pui-icon.filled {
+    font-variation-settings: 'FILL' 1;
 }
 .pui-icon.outlined {
     font-family: 'icon-outlined';
@@ -27,10 +23,4 @@
 }
 .pui-icon.sharp {
     font-family: 'icon-sharp';
-}
-.pui-icon.twotone {
-    font-family: 'icon-twotone';
-}
-.pui-icon.filled {
-    font-family: 'icon-filled';
 }

@@ -1,5 +1,9 @@
 .pui-breadcrumb .path::after {
     content: " / ";
+    font-size: 10px;
+    position: relative;
+    top:-1.5px;
+    padding: 2px;
 }
 
 .pui-breadcrumb .path:last-child::after {
@@ -8,6 +12,9 @@
 
 .pui-breadcrumb.point .path::after {
     content: " ·";
+    font-size: 10px;
+    position: relative;
+    top:-0.75px;
 }
 
 .pui-breadcrumb.point .path:last-child::after {
@@ -15,7 +22,13 @@
 }
 
 .pui-breadcrumb.forward .path::after {
-    content: " >";
+    content: " arrow_forward_ios";
+    font-size: 10px;
+    position: relative;
+    left: -3px;
+    top:0.5px;
+    padding: 0;
+    font-family: "icon-rounded";
 }
 
 .pui-breadcrumb.forward .path:last-child::after {
