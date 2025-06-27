@@ -1,3 +1,4 @@
+/*
 let avatars = document.querySelectorAll('.pui-avatar.function');
 for (let i = 0; i < avatars.length; i++) {
     let avatar = avatars[i];
@@ -10,4 +11,4 @@ for (let i = 0; i < avatars.length; i++) {
     let fontSize = avatar.offsetHeight * 0.733;
     avatar.style.fontSize = `${fontSize}px`;
 }
-
+*/

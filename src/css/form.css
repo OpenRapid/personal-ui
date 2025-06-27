@@ -1,0 +1,53 @@
+.pui-form{
+    display: flex;
+    flex-direction: column;
+}
+.pui-form-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.pui-form-label{
+    font-size: 14px;
+    font-weight: 500;
+    display: inline;
+    margin-bottom: 5px;
+    padding:0;
+    font-family: 'SourceHanSansSC-Medium';
+}
+.pui-form input{
+    width:max-content;
+    height: 32px;
+    padding: 0 8px 0 8px;
+    font-size: 14px;
+    background-color: var(--pui-color-grey-soft);
+    border: unset;
+    border-radius: 6px;
+}
+
+.pui-form input:focus{
+    outline: 1.1px solid var(--pui-color-primary)
+}
+
+.pui-form input[warning]{
+    background-color: rgba(255, 152, 0, 0.07);
+}
+
+.pui-form input[warning]:focus{
+    background-color: unset;
+    outline: 1.1px solid var(--pui-color-warning)
+}
+
+.pui-form input[error]{
+    background-color: rgba(255, 0, 0, 0.07);
+}
+
+.pui-form input[error]:focus{
+    background-color: unset;
+    outline: 1.1px solid var(--pui-color-error-strong)
+}
+
+.pui-form input:disabled{
+    background-color: var(--pui-color-grey-light);
+    cursor:not-allowed;
+}
